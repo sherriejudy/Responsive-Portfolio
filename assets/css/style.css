@@ -21,6 +21,7 @@ body {
   background-repeat: repeat;
   background-image: url("../images/full-bloom.png");
 }
+
 h1 {
   color: #4aaaa5;
   font-family: "Georgia", Times, Times New Roman, serif;
@@ -172,3 +173,23 @@ input[type="submit"]:hover {
   text-align: center;
   padding: 10px 0px 10px 0px;
 }
+
+@media only screen and (max-width: 980px) {
+  #mainbio {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #mainbio {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  #mainbio {
+    width: 100%;
+  }
+}
+
+/* standard media query pixel widths: browser/tablet/mobile */
