@@ -228,36 +228,43 @@ input[type="submit"]:hover {
   .header {
     width: 100%;
     position: fixed;
-    height: 145px;
+    height: 135px;
+    z-index: 1;
   }
   .header-left {
-    margin: 0 auto;
+    margin: 0;
     width: 100%;
-    text-align: center;
-    display: inline-block;
   }
   .header-right {
     width: 100%;
-    margin-left: 10%;
+  }
+  .centering {
+    display: flex;
+    justify-content: center;
+  }
+  .centering a {
+    display: flex;
   }
   a.logo {
-    display: inline-block;
+    margin: 0 auto;
+    width: 100%;
+    padding: 20px 0 0 0;
   }
 
   #mainbio {
-    width: 84.5%;
-    margin-top: 150px;
+    margin: 150px auto 0;
+    width: 80%;
   }
   #bioimage {
-    width: 540px;
-    height: 400px;
+    width: 100%;
+    height: auto;
     margin-bottom: 15px;
     margin-top: 10px;
   }
   /* portfolio images */
   .placeholder {
-    width: 540px;
-    height: 400px;
+    width: 100%;
+    height: auto;
   }
   .label {
     padding: 20px 0px 20px 0px;
