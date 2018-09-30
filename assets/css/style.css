@@ -228,11 +228,17 @@ input[type="submit"]:hover {
   .header {
     width: 100%;
     position: fixed;
+    height: 145px;
   }
   .header-left {
-    margin: 0;
+    margin: 0 auto;
     width: 100%;
     text-align: center;
+    display: inline-block;
+  }
+  .header-right {
+    width: 100%;
+    margin-left: 10%;
   }
   a.logo {
     display: inline-block;
@@ -240,6 +246,7 @@ input[type="submit"]:hover {
 
   #mainbio {
     width: 84.5%;
+    margin-top: 150px;
   }
   #bioimage {
     width: 540px;
